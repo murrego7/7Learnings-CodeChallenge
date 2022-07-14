@@ -53,7 +53,7 @@ I create two different functions for achieving the split:
 > It is a good practice to normalize features when these are in different scales. Nonetheless, after evaluating the models, I get to the conclusion that this is not necessary in this case.
 
 ## Modeling and evaluation
-I will predict whether will snow tomorrow 13 years ago using two different models Logistic Regression and Random Forest, but also I will apply a Grid Search to the Logistic model. 
+I will predict whether will snow tomorrow 13 years ago using two different models Logistic Regression and Random Forest with Grid Search, but also I will apply a Grid Search to the Logistic model. 
 
 > *Metric for evaluation*: Since this is a binary **classification** problem, I will choose the ROC score.
 
@@ -62,12 +62,12 @@ I will predict whether will snow tomorrow 13 years ago using two different model
  
  - In this case, the best model was a Logistic Regression (1) without hyperparameter optimization. Having in mind the trade-off: computational resourses vs accuracy.
  
- - Tomorrow 13 years ago WON'T snow, which makes sense, having in mind we are in july at the moment I solve the challenge :) 
+ - Tomorrow 13 years ago WON'T snow, which makes sense, having in mind we are in summer at the moment I solve the challenge :) 
 
 
 ## Thing to improve: 
 - The code can be more "parametric", in order to deploy the process with other related data sets or with this dataset if changes in the future. 
-- Find a way to avoid all of the "trash info" that is deployed when we train the model.
+- Find a way to avoid all of the "trash info" that is deployed when I train the model.
 
 
 

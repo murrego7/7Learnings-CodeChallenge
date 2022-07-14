@@ -1,2 +1,2 @@
-# 7Learnings-CodeChallenge
+# 7LearningsCodeChallenge
 Solution to 7Learnings Data Science Challenge

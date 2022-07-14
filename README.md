@@ -35,7 +35,7 @@ For this I will be using 2 models, with 3 different scenarios:
 
 I start querying the data through Big Query and then the query is converted into a dataframe in order to manipulate and preprocessing the data with Pandas. Nonetheless converting to dataframe requires more computational time.
 
-#Points to have in mind:
+# Points to have in mind:
 
 ## Train, test, evaluation split
 I create two different functions for achieving the split:
@@ -52,7 +52,7 @@ I create two different functions for achieving the split:
 ## Normalization: 
 > It is a good practice to normalize features when these are in different scales. Nonetheless, after evaluating the models, I get to the conclusion that this is not necessary in this case.
 
-# Modeling and evaluation
+## Modeling and evaluation
 I will predict whether will snow tomorrow 13 years ago using two different models Logistic Regression and Random Forest, but also I will apply a Grid Search to the Logistic model. 
 
 > *Metric for evaluation*: Since this is a binary **classification** problem, I will choose the ROC score.
